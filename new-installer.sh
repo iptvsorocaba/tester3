@@ -22,7 +22,7 @@ BPurple='\e[1;35m'      # Purple
 BCyan='\e[1;36m'        # Cyan
 BWhite='\e[1;37m'       # White
 
-if [ "$0" == "./installer.sh" ]; then
+if [ "$0" == "./new-installer.sh" ]; then
 	echo -ne "You can't run this script here !!!!\n\n";
 	exit;
 fi
